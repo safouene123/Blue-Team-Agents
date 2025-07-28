@@ -1,0 +1,12 @@
+{
+  "scenario": "The SOC detected suspicious activity related to Dridex malware from an internal host. A PCAP was retrieved for further analysis after the infected user opened a macro-enabled document. Analyze the PCAP and answer the following questions.",
+  "files": ["Datasets/network_analysis_1/traffic-with-dridex-infection.pcap"],
+  "tools": ["tshark","tcpdump"],
+  "questions": ["What’s the private IP of the infected host? (format: X.X.X.X)",
+  "What’s the malware binary that the macro document is trying to retrieve? (Format: file.extension)",
+  "From what domain HTTP requests with GET /images/ are coming from? (Format: domain.tld)",
+  "The SOC Team found Dridex, a follow-up malware from Ursnif infection, to be the culprit. The customer who sent her the macro file is compromised. What’s the full URL ending in .rar where Ursnif retrieves the follow-up malware from? (Format: http://(domain-or-IP)/file.rar)",
+  "What is the Dridex post-infection traffic IP address beginning with 185.? (Format: 185.X.X.X)"
+],  
+  "answers": ["10.11.27.101","spet10.spr","cochrimato.com","http://95.181.198.231/oiioiashdqbwe.rar","185.244.150.230"]
+}
