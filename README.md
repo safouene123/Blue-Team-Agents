@@ -9,7 +9,8 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
 2. Clone the repo
    ```sh
-   git clone https://github.com/safouene123/Blue-Team-Agents.git   ```
+   git clone https://github.com/safouene123/Blue-Team-Agents.git
+   ```
 3. Enter the working directory
    ```sh
    cd Blue-Team-Agents
@@ -25,7 +26,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 6. Create a .env file and add your API Key
    ```sh
-   GEMINI_API_KEY=your_api_key
+   GEMINI_API_KEY= your_api_key
    ```
 
 
