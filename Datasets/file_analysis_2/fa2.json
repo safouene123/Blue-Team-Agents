@@ -1,0 +1,19 @@
+{
+  "scenario": "A suspicious Pwershell script in a .txt file was found on one of our endpoints, can you work out what it does?",
+  "files": ["Datasets/file_analysis_2/HDWallpaperEngine.txt"],
+  "tools": ["grep","awk","sed","sha256sum","base64","cut","sort","wc","head","tail","find","strings","file","stat" ],
+  "questions": ["What is the SHA256 hash value for the PowerShell script file?", 
+  "What email address is used to send and receive emails? (Format: Mailbox@domain.tld)",
+  "What is the password for this email account?",
+  "What port is used for SMTP? (Format: Port Number)",
+  "What DLL is imported to help record keystrokes? (Format: filename.extension)",
+  "What directory is the generated txt file put in? (Format: directory name)"
+],  
+  "answers": ["e0b7a2ad2320ac32c262aeb6fe2c6c0d75449c6e34d0d18a531157c827b9754e",
+"chaudhariparth454@gmail.com",
+"yjghfdafsd5464562!",
+"587",
+"user32.dll",  
+"temp"
+]
+}
