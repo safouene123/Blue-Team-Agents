@@ -1,6 +1,6 @@
 {
   "scenario": "You are given a phishing email file in .eml format.",
-  "files": ["Datasets/file_analysis/Your_Account_has_been_locked.eml"],
+  "files": ["Datasets/file_analysis_1/Your_Account_has_been_locked.eml"],
   "tools": ["grep","awk","sed","ls","base64","cut","sort","wc","head","tail","find","strings","file","stat" ],
   "questions": ["What is the sending email address?", 
   "What is the recipient email address?",
