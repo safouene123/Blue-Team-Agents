@@ -3,4 +3,4 @@ chaudhariparth454@gmail.com
 yjghfdafsd5464562!
 587
 user32.dll
-$env:temp
+temp
